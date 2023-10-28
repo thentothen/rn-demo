@@ -33,12 +33,14 @@ local.properties
 .cxx/
 *.keystore
 !debug.keystore
-
+.vscode
 # node.js
 #
 node_modules/
+package-lock.json
 npm-debug.log
 yarn-error.log
+Podfile.lock
 
 # fastlane
 #
