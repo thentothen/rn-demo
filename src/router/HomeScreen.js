@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
 import Home from '../views/home';
+import scoreShow from '../views/scoreShow';
 export default function HomeScreen() {
   return (
     <Stack.Navigator initialRouteName="Home">
